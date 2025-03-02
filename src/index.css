@@ -1,8 +1,9 @@
 body{
   background-color:cyan;
+  background-image: url(http://thumbs.dreamstime.com/z/to-do-list-heading-background-template-business-presentation-background-business-slide-show-64705070.jpg);
 }
 .heading{
-color: brown;
+color: red;
   text-align: center;
   text-decoration: underline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
