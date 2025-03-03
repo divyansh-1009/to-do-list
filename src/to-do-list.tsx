@@ -21,7 +21,7 @@ function ToDoList(){
     </div>
     <div className="list"><ol>
             {tasks.map((tasks,index)=>
-                        <li key={index}><span className="output-task">{tasks}</span>
+                        <li key={index}>{tasks}
                         <button onClick={()=>removeTask(index)} className="deleteButton">Delete task</button>
                         </li>
             )}
